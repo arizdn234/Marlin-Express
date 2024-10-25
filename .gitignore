@@ -8,13 +8,6 @@
 *.test
 *.out
 
-# Golang build folder
-bin/
-dist/
-
-# Vendor directories (when using vendoring)
-vendor/
-
 # OS generated files
 .DS_Store
 Thumbs.db
@@ -23,11 +16,15 @@ Thumbs.db
 *.swp
 *.swo
 
-# Environment variables
+# Environment files
 .env
 .env.*
 
-# Docker specific files
+# Dependency files
+node_modules/
+vendor/
+
+# Docker-specific files
 docker-compose.override.yml
 docker-compose.prod.yml
 
@@ -35,5 +32,6 @@ docker-compose.prod.yml
 *.log
 *.tmp
 
-# Dependency directories
-node_modules/
+# Build artifacts
+backend/bin/
+backend/dist/
