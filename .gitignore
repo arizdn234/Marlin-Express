@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go binary files
+*.test
+*.out
+
+# Golang build folder
+bin/
+dist/
+
+# Vendor directories (when using vendoring)
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go workspace files
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# Docker specific files
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# Logs and debugging
+*.log
+*.tmp
+
+# Dependency directories
+node_modules/
